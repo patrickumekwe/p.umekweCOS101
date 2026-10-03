@@ -1,0 +1,11 @@
+fn main() {
+    let a = 2;
+    let b = 3;
+
+    println!("a & b: {}", a & b);
+    println!("a | b: {}", a | b);
+    println!("a ^ b: {}", a ^ b);
+    println!("!b: {}", !b);
+    println!("a << 1: {}", a << 1);
+    println!("a >> 1: {}", a >> 1);
+}
