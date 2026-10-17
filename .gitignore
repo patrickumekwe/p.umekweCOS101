@@ -1,0 +1,27 @@
+# Rust build output (matches target/ in every practice and project folder)
+target/
+
+# Backup files created by rustfmt
+**/*.rs.bk
+
+# Debug symbols (Windows)
+*.pdb
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local config
+.env
+.env.*
+
+# Course material you probably don't want in git (remove these lines to track them)
+*.pdf
+*.pptx
